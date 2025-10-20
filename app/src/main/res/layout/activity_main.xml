@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
         <TextView
             android:id="@+id/header"
             android:layout_width="wrap_content"
@@ -26,7 +27,6 @@
             android:layout_marginHorizontal="20sp"
             android:paddingTop="24sp">
             <TextView
-                android:id="@+id/fullname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="fullname"
@@ -35,6 +35,7 @@
                 />
 
             <EditText
+                android:id="@+id/fullname"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan nama"
@@ -42,7 +43,6 @@
                 android:background="@drawable/radiusbg"
                 />
             <TextView
-                android:id="@+id/username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="username"
@@ -51,6 +51,7 @@
                 />
 
             <EditText
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan username"
@@ -58,7 +59,6 @@
                 android:background="@drawable/radiusbg"
                 />
             <TextView
-                android:id="@+id/age"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="age"
@@ -67,6 +67,7 @@
                 />
 
             <EditText
+                android:id="@+id/age"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan umur"
@@ -74,7 +75,6 @@
                 android:background="@drawable/radiusbg"
                 />
             <TextView
-                android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="email"
@@ -84,6 +84,7 @@
                 />
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan email"
@@ -117,7 +118,6 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="password"
@@ -126,6 +126,7 @@
                 />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan password"
@@ -133,7 +134,6 @@
                 android:background="@drawable/radiusbg"
                 />
             <TextView
-                android:id="@+id/repassowrd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="password"
@@ -142,6 +142,7 @@
                 />
 
             <EditText
+                android:id="@+id/repassowrd"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan ulang password"
@@ -149,16 +150,17 @@
                 android:background="@drawable/radiusbg"
                 />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Submit"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:layout_marginTop="24sp"
-                android:backgroundTint="@color/blue"
-                />
+                android:layout_marginTop="24dp"
+                android:textColor="@android:color/white"
+                app:cornerRadius="16dp"
+                app:backgroundTint="@color/blue" />
         </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
