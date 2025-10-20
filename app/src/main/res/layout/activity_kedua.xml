@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeduaActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORM PENDAFTARAN"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fullname"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/hasilfullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasilfullname"
+            android:textSize="20sp"
+            android:layout_marginTop= "1sp"
+            android:layout_marginBottom="4sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#CCCCCC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/hasilusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil username"
+            android:textSize="20sp"
+            android:layout_marginTop= "1sp"
+            android:layout_marginBottom="4sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#CCCCCC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/hasilumur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil umur"
+            android:textSize="20sp"
+            android:layout_marginTop= "1sp"
+            android:layout_marginBottom="4sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#CCCCCC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil email"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/hasilemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil email"
+            android:textSize="20sp"
+            android:layout_marginTop= "1sp"
+            android:layout_marginBottom="4sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#CCCCCC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/hasilgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil gender"
+            android:textSize="20sp"
+            android:layout_marginTop= "1sp"
+            android:layout_marginBottom="4sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#CCCCCC"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="24sp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="56sp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
