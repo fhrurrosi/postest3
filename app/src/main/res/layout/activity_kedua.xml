@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KeduaActivity">
+    tools:context=".KeduaActivity"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FORM PENDAFTARAN"
+        android:text="HASIL FORM"
         android:textColor="@color/blue"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -135,7 +136,7 @@
         android:id="@+id/btnkembali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="Kembali"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_marginBottom="54sp"

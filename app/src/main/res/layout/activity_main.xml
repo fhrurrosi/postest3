@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
                 android:hint="masukan email"
-                android:inputType="text"
+                android:inputType="textEmailAddress"
                 android:background="@drawable/radiusbg"
                 />
             <TextView
@@ -134,6 +134,7 @@
                 android:background="@drawable/radiusbg"
                 />
             <TextView
+                android:id="@+id/repassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ulang password"
